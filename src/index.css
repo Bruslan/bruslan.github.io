@@ -1,0 +1,21 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+html{
+  --bg-opacity: 1;
+  background-color:white !important;
+  background-color: rgba(26, 32, 44, var(--bg-opacity));
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
